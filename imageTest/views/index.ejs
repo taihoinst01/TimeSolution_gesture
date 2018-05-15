@@ -77,7 +77,7 @@
 			var clock;
 			var mixer;
 			function playAction(actionNum) {
-                console.log('action');
+	
 				//동작을 맨처음 클릭시에는 action에 애니메이션이 없는 상태이기 때문에 분기처리를 안하고 action.stop()을 하면 에러 발생
 				if(action != null) {
 					action.stop();
@@ -177,11 +177,11 @@
 
 					//원근 투영 을 사용하는 카메라 .
 					camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 3, 200000 );
-					camera.position.set( 100, 3000, 7500 );
+					camera.position.set( 100, 3000, 15000 );
 
 					//궤도 제어는 카메라가 표적 주위를 도는 것을 허용합니다. 
 					controls = new THREE.OrbitControls( camera );
-					controls.target.set( 0, 2000, 0 );
+					controls.target.set( 0, 5000, 0 );
 					controls.update();
 
 					//장면을 사용하면 three.js에서 렌더링 할 내용의 위치를 ​​설정할 수 있습니다. 이것은 물건, 조명 및 카메라를 배치하는 곳입니다.

@@ -30879,9 +30879,9 @@
 					request.setRequestHeader( header, this.requestHeader[ header ] );
 
 				}
-                console.log('here');
+                console.log('first');
 				request.send( null );
-
+                console.log('second');
 			}
 
 			scope.manager.itemStart( url );

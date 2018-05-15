@@ -30784,7 +30784,7 @@
 				var request = new XMLHttpRequest();
 
 				request.open( 'GET', url, true );
-
+                console.log('0 : ' + url);
 				request.addEventListener( 'load', function ( event ) {
                     console.log('1');
 					var response = this.response;

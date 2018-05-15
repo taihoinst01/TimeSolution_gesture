@@ -39,7 +39,7 @@
 	Object.assign( THREE.FBXLoader.prototype, {
 
 		load: function ( url, onLoad, onProgress, onError ) {
-
+            console.log('load');
 			var self = this;
 
 			var resourceDirectory = THREE.LoaderUtils.extractUrlBase( url );

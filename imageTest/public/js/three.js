@@ -30786,9 +30786,9 @@
 				request.open( 'GET', url, true );
 
 				request.addEventListener( 'load', function ( event ) {
-
+                    console.log('1');
 					var response = this.response;
-
+                    console.log('2');
 					Cache.add( url, response );
 
 					var callbacks = loading[ url ];

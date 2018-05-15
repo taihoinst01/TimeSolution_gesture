@@ -31,7 +31,7 @@
 ( function () {
 
 	THREE.FBXLoader = function ( manager ) {
-        console.log('come');
+
 		this.manager = ( manager !== undefined ) ? manager : THREE.DefaultLoadingManager;
 
 	};

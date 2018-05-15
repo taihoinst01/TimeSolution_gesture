@@ -21283,7 +21283,7 @@
 		var _gl;
 
 		try {
-
+            console.log('try');
 			var contextAttributes = {
 				alpha: _alpha,
 				depth: _depth,
@@ -21328,7 +21328,7 @@
 			}
 
 		} catch ( error ) {
-
+            console.log('catch');
 			console.error( 'THREE.WebGLRenderer: ' + error.message );
 
 		}

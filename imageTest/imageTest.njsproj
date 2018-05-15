@@ -45,8 +45,10 @@
     <Content Include="public\img\image_sample.jpg" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
+    <Content Include="views\error.html" />
     <Content Include="views\index.ejs" />
     <Content Include="views\error.ejs" />
+    <Content Include="views\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="public\" />

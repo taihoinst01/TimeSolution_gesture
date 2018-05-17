@@ -45,11 +45,9 @@
 			var resourceDirectory = THREE.LoaderUtils.extractUrlBase( url );
 
 			var loader = new THREE.FileLoader( this.manager );
-            loader.setResponseType('arraybuffer');
-
-                console.log('pass');
+			loader.setResponseType( 'arraybuffer' );
 			loader.load( url, function ( buffer ) {
-                console.log(url);
+
 				try {
 
 					var scene = self.parse( buffer, resourceDirectory );

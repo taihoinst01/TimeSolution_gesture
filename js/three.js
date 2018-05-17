@@ -30784,11 +30784,11 @@
 				var request = new XMLHttpRequest();
 
 				request.open( 'GET', url, true );
-                
+
 				request.addEventListener( 'load', function ( event ) {
-                    
+
 					var response = this.response;
-                    
+
 					Cache.add( url, response );
 
 					var callbacks = loading[ url ];

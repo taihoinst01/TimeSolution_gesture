@@ -44,6 +44,7 @@
     <Content Include="public\fbx\ChatBot_AniAll01.FBX" />
     <Content Include="public\img\image_sample.jpg" />
     <Content Include="public\stylesheets\main.css" />
+    <Content Include="web.config" />
     <Content Include="README.md" />
     <Content Include="views\index.ejs" />
     <Content Include="views\error.ejs" />
